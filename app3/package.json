@@ -1,0 +1,17 @@
+{
+  "name": "example-app1",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "NODE_ENV=production next build src",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "express": "^4.16.4",
+    "next": "^8.1.0",
+    "next-routes": "^1.4.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
