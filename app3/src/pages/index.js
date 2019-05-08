@@ -14,7 +14,7 @@ export default () => (
     <img src="/static/image.png" />
     <h2>Total Apps:</h2>
     <ul>
-      <li><a href="/">App 1</a></li>
+      <li><a href="/app1">App 1</a></li>
       <li><a href="/app2">App 2</a></li>
       <li><a href="/app3">App 3 (CURRENT)</a></li>
     </ul>
