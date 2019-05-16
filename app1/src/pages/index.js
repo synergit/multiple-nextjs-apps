@@ -8,15 +8,15 @@ export default () => (
     <h2>Routes:</h2>
     <ul>
       <li><a href="/">/</a> (CURRENT)</li>
-      <li><a href="/app1">/app1</a></li>
+      <li><a href="/page-app1">/app1</a></li>
     </ul>
     <h2>Static folder:</h2>
     <p>/static</p>
     <img src="/static/image.png" />
     <h2>Total Apps:</h2>
     <ul>
-      <li><a href="/app1">App 1</a> (CURRENT)</li>
-      <li><a href="/app2">App 2</a></li>
+      <li><a href="/page-app1">App 1</a> (CURRENT)</li>
+      <li><a href="/page-app2">App 2</a></li>
       <li><a href="/app3">App 3</a></li>
     </ul>
   </div>

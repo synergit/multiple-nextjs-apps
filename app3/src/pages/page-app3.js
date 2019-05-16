@@ -7,8 +7,8 @@ export default () => (
     <p>/app3</p>
     <h2>Routes:</h2>
     <ul>
-      <li><a href="/app3">/app3 (CURRENT)</a></li>
-      <li><a href="/app3/page-app3">/app3/page-app3</a></li>
+      <li><a href="/app3">/app3 </a></li>
+      <li><a href="/app3/page-app3">/app3/page-app3 (CURRENT)</a></li>
     </ul>
     <h2>Static folder:</h2>
     <p>/static</p>
