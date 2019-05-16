@@ -7,6 +7,9 @@ services:
       context: ./app1
     ports: 
       - 3001:3000
+    environment:
+      - BASEPATH=/
+      - ASSETPREFIX=/app1
 
   app2:
     build: 
@@ -14,6 +17,9 @@ services:
       context: ./app2
     ports: 
       - 3002:3000
+    environment:
+      - BASEPATH=/
+      - ASSETPREFIX=/app2
 
   app3:
     build: 
@@ -21,6 +27,9 @@ services:
       context: ./app3
     ports: 
       - 3003:3000
+    environment:
+      - BASEPATH=/app3
+      - ASSETPREFIX=/app3
 
   nginx:
     build:

@@ -1,4 +1,5 @@
 import React from 'react';
+import staticPath from '../helpers/staticPath';
 
 export default () => (
   <div>
@@ -12,7 +13,7 @@ export default () => (
     </ul>
     <h2>Static folder:</h2>
     <p>/static</p>
-    <img src="/static/image.png" />
+    <img src={staticPath('/static/image.png')} />
     <h2>Total Apps:</h2>
     <ul>
       <li><a href="/page-app1">App 1</a> (CURRENT)</li>
