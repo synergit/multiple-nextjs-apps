@@ -12,7 +12,7 @@ export default () => (
       <li><a href="/app3/page-app3">/app3/page-app3 (CURRENT)</a></li>
     </ul>
     <h2>Static folder:</h2>
-    <p>/static</p>
+    <p>/static/image.png</p>
     <img src={staticPath('/static/image.png')} />
     <h2>Total Apps:</h2>
     <ul>
