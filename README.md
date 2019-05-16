@@ -17,10 +17,10 @@ Only setting the asset prefix dynamically or based on environment variables allo
 In the nginx config two things are handled: page requests and asset prefixed requests are being sent to the correct app.
 
 For example:
-`/` -> app1
-`/other-page` -> app2
-`/app1` -> app1
-`/app2` -> app2
+- `/` -> app1
+- `/other-page` -> app2
+- `/app1` -> app1
+- `/app2` -> app2
 
 ## 3. Rewriting the request URL for Next.js
 Once the request arrives at the Next.js server, it's being rewritten so for Next.js it looks as if it's a completely normal request.
