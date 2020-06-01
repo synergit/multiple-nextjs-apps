@@ -1,37 +1,40 @@
 version: '3'
 services:
-
   app1:
-    build: 
-      dockerfile: Dockerfile
-      context: ./app1
+    # build: 
+    #   dockerfile: Dockerfile
+    #   context: ./app1
+    image: synerdoc/app1
     ports: 
       - 3001:3000
     environment:
       - ASSETPREFIX=/app1
 
   app2:
-    build: 
-      dockerfile: Dockerfile
-      context: ./app2
+    # build: 
+    #   dockerfile: Dockerfile
+    #   context: ./app2
+    image: synerdoc/app2
     ports: 
       - 3002:3000
     environment:
       - ASSETPREFIX=/app2
 
   app3:
-    build: 
-      dockerfile: Dockerfile
-      context: ./app3
+    # build: 
+    #   dockerfile: Dockerfile
+    #   context: ./app3
+    image: synerdoc/app3
     ports: 
       - 3003:3000
     environment:
       - ASSETPREFIX=/app3
 
   nginx:
-    build:
-      dockerfile: Dockerfile
-      context: ./nginx
+    # build:
+    #   dockerfile: Dockerfile
+    #   context: ./nginx
+    image: synerdoc/nginx-next
     restart: always
     ports:
       - "80:80"
