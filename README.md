@@ -36,7 +36,7 @@ server.use(function(req, res, next) {
 ## 4. Static URLs
 The only thing affecting the development workflow once this setup is completed, is how static assets are handled. The `assetPrefix` setting has no effect whatsoever on `/static`. So any references in the code to static urls will have to be manually prefixed, for example by the use of a helper function (e.g. `staticPath('images/image.png')`), which will turn the url into the prefixed path when necessary (e.g. `/app1/static/images/image.png`).
 
-'''shell
+```shell
 # run on local: http://localhost/
 docker-compose -f docker-compose.yml up 
-'''
+```
