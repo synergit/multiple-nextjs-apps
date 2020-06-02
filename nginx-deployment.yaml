@@ -24,7 +24,7 @@ spec:
         io.kompose.service: nginx
     spec:
       containers:
-      - image: synerdoc/nginx-next:0.2
+      - image: synerdoc/nginx-next:latest
         imagePullPolicy: ""
         name: nginx
         ports:

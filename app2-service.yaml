@@ -10,8 +10,8 @@ metadata:
   name: app2
 spec:
   ports:
-  - name: "3002"
-    port: 3002
+  - name: "app2-3000"
+    port: 3000
     targetPort: 3000
   selector:
     io.kompose.service: app2

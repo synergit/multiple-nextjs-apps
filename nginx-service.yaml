@@ -11,7 +11,7 @@ metadata:
 spec:
   type: NodePort
   ports:
-  - name: "80"
+  - name: "nginx-80"
     port: 80
     targetPort: 80
     protocol: TCP
