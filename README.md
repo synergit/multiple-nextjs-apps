@@ -40,3 +40,4 @@ The only thing affecting the development workflow once this setup is completed, 
 # run on local: http://localhost/
 docker-compose -f docker-compose.yml up 
 ```
+Other alternative: https://cloud.ibm.com/docs/containers?topic=containers-ingress#public_inside_2
